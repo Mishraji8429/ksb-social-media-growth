@@ -449,3 +449,47 @@ background:#E1306C;
 color:white;
 
 }
+.order-section{
+padding:100px 8%;
+background:#101010;
+text-align:center;
+}
+
+.order-section h2{
+font-size:42px;
+color:#FFD700;
+margin-bottom:40px;
+}
+
+.order-form{
+max-width:500px;
+margin:auto;
+display:flex;
+flex-direction:column;
+gap:18px;
+}
+
+.order-form input,
+.order-form select{
+padding:16px;
+border:none;
+border-radius:12px;
+font-size:17px;
+background:#222;
+color:white;
+}
+
+.order-form button{
+padding:16px;
+background:#FFD700;
+border:none;
+border-radius:12px;
+font-size:18px;
+font-weight:bold;
+cursor:pointer;
+transition:.3s;
+}
+
+.order-form button:hover{
+background:#fff;
+}
